@@ -1,0 +1,11 @@
+[package]
+name = "exr-pointcloud"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+usd = {git = "https://github.com/luke-titley/usd-rs" }
+exr = "1.7.0"
+glam = "0.24.1"
